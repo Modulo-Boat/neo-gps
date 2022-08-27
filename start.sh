@@ -1,1 +1,1 @@
-docker run --name=neo-gps --restart=unless-stopped --group-add=dialout --device=/dev/ttyUSB1 -p 30008:5000 -p 30009:9090 neo-gps
+docker run --name=neo-gps --restart=unless-stopped --group-add=dialout --device=/dev/ttyUSB1 -p 30008:5000 -p 30009:9090 -d neo-gps
